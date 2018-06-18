@@ -1,4 +1,4 @@
-h2{
+h1{
   font-weight: bold;
   font-size: 40px;
   color: black;
@@ -24,4 +24,136 @@ h2{
   position: relative;
   left: -70Opx;
   bottom:300px;
+}
+
+
+
+
+
+/*Carousel*/
+.carousel-inner img{
+  width: 100%;
+  height: 100%;
+}
+h2{
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+.linkCarouselLight{
+  background-color: white;
+  border: none;
+  color: black;
+  font-weight: bold;
+  padding: 1rem;
+}
+.linkCarouselDark{
+  background-color: black;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 1rem;
+}
+.dot{
+  height: 0.5rem;
+  width: 0.5rem;
+  background-color: #888;
+  border-radius: 50%;
+}
+.dot:last-child{
+  margin-left: 1rem;
+}
+.selectorSlide{
+  background-color: #111;
+  width: 3rem;
+  height: 3rem;
+  margin: auto;
+}
+#blockInfo1 p{
+  padding-bottom: 2rem;
+}
+#blockInfo2 p{
+  padding-bottom: 2rem;
+}
+a:link{
+  text-decoration: none;
+}
+#blockInfo1 a:hover{
+  color: black;
+  background-color: #ddd;
+}
+#blockInfo2 a:hover{
+  color: white;
+  background-color: #111;
+}
+@media only screen and (max-width: 900px) {
+  #blockInfo1{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(51, 51, 51);
+    padding-top: 5%;
+    padding-bottom: 10%;
+    width: 100%;
+    text-align: center;
+    min-height: 300px;
+  }
+  #blockInfo2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 230, 230);
+    color: black;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    width: 100%;
+    text-align: center;
+    min-height: 300px;
+  }
+  #blockInfo2 p{
+    padding-bottom: 2rem;
+  }
+}
+@media only screen and (min-width: 900px) {
+  #blockInfo1{
+    color: white;
+    padding: 12px;
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    text-align: center;
+  }
+  #blockInfo2{
+    color: black;
+    padding-left: 60%;
+    padding-bottom: 10%;
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    text-align: left;
+  }
+  #blockInfo2 p{
+    padding-bottom: 2rem;
+    max-width: 80%;
+  }
+}
+
+/*Footer*/
+.listFooter{
+  list-style-type: none;
+  padding: 2rem;
+}
+h4{
+  font-size: 1rem;
+  font-weight: bold;
+}
+.listFooter a{
+  font-size: 0.8em;
+  color: #555;
+}
+.listFooter a:hover{
+  text-decoration: underline;
+  color: #000;
 }
