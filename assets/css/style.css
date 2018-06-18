@@ -1,0 +1,26 @@
+h2{
+  font-weight: bold;
+  font-size: 40px;
+  color: black;
+}
+.c-heading{
+  position: relative;
+  display: block;
+  text-align: center;
+}
+.c-paragraph{
+  position: relative;
+  display: block;
+  text-align: center;
+}
+.c-group{
+  position: relative;
+  display: block;
+  text-align: center;
+
+}
+.bloc{
+  display: block;
+  position: relative;
+  bottom:300px;
+}
