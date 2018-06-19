@@ -1,35 +1,41 @@
 h1{
-  font-weight: bold;
-  font-size: 40px;
-  color: black;
-}
+   font-weight: bold;
+   font-size: 40px;
+   color: black;
+   left: 10px;
+   bottom: 250px;
+ }
 .titrepromo{
-  position: relative;
-  display: block;
-  text-align: center;
-}
+   position: relative;
+   display: block;
+   text-align: center;
+   bottom: 0px;
+ }
 .paragraph{
-  position: relative;
-  display: block;
-  text-align: center;
-}
+   position: relative;
+   display: block;
+   text-align: center;
+   bottom:0px;
+ }
 .group{
-  position: relative;
-  display: block;
-  text-align: center;
+   position: relative;
+   display: block;
+   text-align: center;
 }
 .xbox{
   background-color: black;
   color: white;
   padding: 5px;
   margin-top: 40px;
-}
-.bloc{
-  display: block;
   position: relative;
-  left: -70Opx;
-  bottom:300px;
-}
+  top: 30px;
+ }
+ .bloc{
+   display: block;
+   position: relative;
+   left: -70Opx;
+   bottom:300px;
+ }
 @media only screen and (max-width: 900px) {
   .imagecentrale{
     width: 100%;
@@ -43,15 +49,13 @@ h1{
     font-size: 14px;
     left: 13px
 }
-.xbox{
+  .xbox{
   position: relative;
   top: 310px;
   left: 20px;
   font-size: 12px;
-
 }
 }
-
 
 /*Carousel*/
 .carousel-inner img{
