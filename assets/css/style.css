@@ -22,5 +22,6 @@ h2{
 .bloc{
   display: block;
   position: relative;
+  left: -70Opx;
   bottom:300px;
 }
