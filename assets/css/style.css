@@ -48,17 +48,18 @@ h1{
   }
   .titrepromo{
     position: relative;
-    top: 360px;
+    top: 320px;
     font-size: 14px;
     left: 13px
   }
   .xbox{
     position: relative;
-    top: 310px;
+    top: 280px;
     left: 20px;
     font-size: 12px;
   }
 }
+
 /*Carousel*/
 #carousel{
   width: 90%;
