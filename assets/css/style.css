@@ -268,3 +268,11 @@ footer a:hover{
 #footerHorizontalLinks li a{
   padding: 0.8rem;;
 }
+.nav-link:hover{
+  text-decoration: underline;
+}
+.navbar{
+  width: 91.5%;
+  margin:auto;
+  font-size: 0.9em;
+}
