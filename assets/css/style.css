@@ -1,26 +1,29 @@
+body{
+  font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
+}
 h1{
-   font-weight: bold;
-   font-size: 40px;
-   color: black;
-   left: 10px;
-   bottom: 250px;
- }
+  font-weight: bold;
+  font-size: 40px;
+  color: black;
+  left: 10px;
+  bottom: 250px;
+}
 .titrepromo{
-   position: relative;
-   display: block;
-   text-align: center;
-   bottom: 0px;
- }
+  position: relative;
+  display: block;
+  text-align: center;
+  bottom: 0px;
+}
 .paragraph{
-   position: relative;
-   display: block;
-   text-align: center;
-   bottom:0px;
- }
+  position: relative;
+  display: block;
+  text-align: center;
+  bottom:0px;
+}
 .group{
-   position: relative;
-   display: block;
-   text-align: center;
+  position: relative;
+  display: block;
+  text-align: center;
 }
 .xbox{
   background-color: black;
@@ -29,35 +32,38 @@ h1{
   margin-top: 40px;
   position: relative;
   top: 30px;
- }
- .bloc{
-   display: block;
-   position: relative;
-   left: -70Opx;
-   bottom:300px;
- }
+}
+.bloc{
+  display: block;
+  position: relative;
+  left: -70Opx;
+  bottom:300px;
+}
 @media only screen and (max-width: 900px) {
   .imagecentrale{
     width: 100%;
     height: 100%;
     position: relative;
     top: 100px;
-}
+  }
   .titrepromo{
     position: relative;
     top: 360px;
     font-size: 14px;
     left: 13px
-}
+  }
   .xbox{
-  position: relative;
-  top: 310px;
-  left: 20px;
-  font-size: 12px;
+    position: relative;
+    top: 310px;
+    left: 20px;
+    font-size: 12px;
+  }
 }
-}
-
 /*Carousel*/
+#carousel{
+  width: 90%;
+  margin: 0 auto;
+}
 .carousel-inner img{
   width: 100%;
   height: 100%;
@@ -142,11 +148,13 @@ a:link{
   #blockInfo2 p{
     padding-bottom: 2rem;
   }
+  #footerHorizontalLinks li {
+    float: left;
+  }
 }
 @media only screen and (min-width: 900px) {
   #blockInfo1{
     color: white;
-    padding: 12px;
     position: absolute;
     bottom: 50px;
     width: 100%;
@@ -165,22 +173,77 @@ a:link{
     padding-bottom: 2rem;
     max-width: 80%;
   }
+  #footerHorizontalLinks li {
+    float: right;
+  }
+}
+
+/*Social Links*/
+#SocialContainer{
+  display: flex;
+  align-items: center;
+  padding-left: 4rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+#SocialLinks{
+  font-size: 2rem;
+  list-style-type: none;
+}
+
+#SocialLinks li{
+  float: left;
+}
+#SocialLinks li a {
+  padding: 0.5rem;
+}
+
+#SocialContainer p{
+  color: #555;
+  font-size: 0.9rem;
 }
 
 /*Footer*/
-.listFooter{
+footer li {
   list-style-type: none;
-  padding: 2rem;
 }
 h4{
   font-size: 1rem;
   font-weight: bold;
+  color: rgb(97, 97, 97);
 }
-.listFooter a{
-  font-size: 0.8em;
+footer{
+  background-color: rgb(242, 242, 242);
+}
+footer a{
+  font-size: 0.7em;
   color: #555;
 }
-.listFooter a:hover{
+footer a:hover{
   text-decoration: underline;
   color: #000;
+}
+#footerListContainer{
+  padding-top: 2.5rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-bottom: 3rem;
+}
+#footerListContainer ul{
+  padding-top: 1rem;
+}
+#footerListContainer ul li{
+  padding-top: 0.3rem;
+}
+#footerHorizontalLinks{
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+#footerHorizontalLinks ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#footerHorizontalLinks li a{
+  padding: 0.8rem;;
 }
