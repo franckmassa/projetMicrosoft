@@ -1,273 +1,273 @@
 @@ -1,6 +1,10 @@
- body{
-   font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
- }
+body{
+  font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
+}
 #wrapperPage{
   width: 90%;
   margin: auto;
 }
- h1{
-   font-weight: bold;
-   font-size: 40px;
-   color: black;
-   left: 10px;
-   bottom: 250px;
- }
- .titrepromo{
-   position: relative;
-   display: block;
-   text-align: center;
-   bottom: 0px;
- }
- .paragraph{
-   position: relative;
-   display: block;
-   text-align: center;
-   bottom:0px;
- }
- .group{
-   position: relative;
-   display: block;
-   text-align: center;
- }
- .xbox{
-   background-color: black;
-   color: white;
-   padding: 5px;
-   margin-top: 40px;
-   position: relative;
-   top: 30px;
- }
- .bloc{
-   display: block;
-   position: relative;
-   left: -70Opx;
-   bottom:300px;
- }
- @media only screen and (max-width: 900px) {
-   .imagecentrale{
-     width: 100%;
-     height: 100%;
-     position: relative;
-     top: 100px;
-   }
-   .titrepromo{
-     position: relative;
-     top: 360px;
-     font-size: 14px;
-     left: 13px
-   }
-   .xbox{
-     position: relative;
-     top: 310px;
-     left: 20px;
-     font-size: 12px;
-   }
- }
- /*Carousel*/
- .carousel-inner img{
-   width: 100%;
-   height: 100%;
- }
- h2{
-   font-size: 2.8rem;
-   font-weight: bold;
- }
- .linkCarouselLight{
-   background-color: white;
-   border: none;
-   color: black;
-   font-weight: bold;
-   padding: 1rem;
- }
- .linkCarouselDark{
-   background-color: black;
-   border: none;
-   color: white;
-   font-weight: bold;
-   padding: 1rem;
- }
- .dot{
-   height: 0.5rem;
-   width: 0.5rem;
-   background-color: #888;
-   border-radius: 50%;
- }
- .dot:last-child{
-   margin-left: 1rem;
- }
- .selectorSlide{
-   background-color: #111;
-   width: 3rem;
-   height: 3rem;
-   margin: auto;
- }
- #blockInfo1 p{
-   padding-bottom: 2rem;
- }
- #blockInfo2 p{
-   padding-bottom: 2rem;
- }
- a:link{
-   text-decoration: none;
- }
- #blockInfo1 a:hover{
-   color: black;
-   background-color: #ddd;
- }
- #blockInfo2 a:hover{
-   color: white;
-   background-color: #111;
- }
- @media only screen and (max-width: 900px) {
-   #blockInfo1{
-     color: white;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     background-color: rgb(51, 51, 51);
-     padding-top: 5%;
-     padding-bottom: 10%;
-     width: 100%;
-     text-align: center;
-     min-height: 300px;
-   }
-   #blockInfo2{
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     background-color: rgb(230, 230, 230);
-     color: black;
-     padding-top: 5%;
-     padding-bottom: 10%;
-     width: 100%;
-     text-align: center;
-     min-height: 300px;
-   }
-   #blockInfo2 p{
-     padding-bottom: 2rem;
-   }
-   #footerHorizontalLinks li {
-     float: left;
-   }
- }
- @media only screen and (min-width: 900px) {
-   #blockInfo1{
-     color: white;
-     position: absolute;
-     bottom: 50px;
-     width: 100%;
-     text-align: center;
-   }
-   #blockInfo2{
-     color: black;
-     padding-left: 60%;
-     padding-bottom: 10%;
-     position: absolute;
-     bottom: 50px;
-     width: 100%;
-     text-align: left;
-   }
-   #blockInfo2 p{
-     padding-bottom: 2rem;
-     max-width: 80%;
-   }
-   #footerHorizontalLinks li {
-     float: right;
-   }
- }
- /*Social Links*/
- #SocialContainer{
-   display: flex;
-   align-items: center;
-   padding-bottom: 2rem;
-   padding-top: 2rem;
- }
- #SocialLinks{
-   font-size: 2rem;
-   list-style-type: none;
- }
- #SocialLinks li{
-   float: left;
- }
- #SocialLinks li a {
-   padding: 0.5rem;
- }
- #SocialContainer p{
-   color: #555;
-   font-size: 0.9rem;
- }
- /*Footer*/
- footer li {
-   list-style-type: none;
- }
- h4{
-   font-size: 1rem;
-   font-weight: bold;
-   color: rgb(97, 97, 97);
- }
- footer{
-   background-color: rgb(242, 242, 242);
- }
- footer a{
-   font-size: 0.7em;
-   color: #555;
- }
- footer a:hover{
-   text-decoration: underline;
-   color: #000;
- }
- .text{
-   font-size:25px;
- }
- .text2{
-   font-size:15px;
- }
- .text3{
-   font-size:15px;
- }
- .tex{
-   font-size:23px;
- }
- .titre{
-   font-size:25px;
- }
- .text4{
-   font-size:14.5px;
- }
- .text5{
-   font-size:16px;
- }
- #footerListContainer{
-   padding-top: 2.5rem;
-   padding-left: 4rem;
-   padding-right: 4rem;
-   padding-bottom: 3rem;
- }
- #footerListContainer ul{
-   padding-top: 1rem;
- }
- #footerListContainer ul li{
-   padding-top: 0.3rem;
- }
- #footerHorizontalLinks{
-   padding-left: 4rem;
-   padding-right: 4rem;
- }
- #footerHorizontalLinks ul{
-   list-style-type: none;
-   margin: 0;
-   padding: 0;
- }
- #footerHorizontalLinks li a{
+h1{
+  font-weight: bold;
+  font-size: 40px;
+  color: black;
+  left: 10px;
+  bottom: 250px;
+}
+.titrepromo{
+  position: relative;
+  display: block;
+  text-align: center;
+  bottom: 0px;
+}
+.paragraph{
+  position: relative;
+  display: block;
+  text-align: center;
+  bottom:0px;
+}
+.group{
+  position: relative;
+  display: block;
+  text-align: center;
+}
+.xbox{
+  background-color: black;
+  color: white;
+  padding: 5px;
+  margin-top: 40px;
+  position: relative;
+  top: 30px;
+}
+.bloc{
+  display: block;
+  position: relative;
+  left: -70Opx;
+  bottom:300px;
+}
+@media only screen and (max-width: 900px) {
+  .imagecentrale{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 100px;
+  }
+  .titrepromo{
+    position: relative;
+    top: 360px;
+    font-size: 14px;
+    left: 13px
+  }
+  .xbox{
+    position: relative;
+    top: 310px;
+    left: 20px;
+    font-size: 12px;
+  }
+}
+/*Carousel*/
+.carousel-inner img{
+  width: 100%;
+  height: 100%;
+}
+h2{
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+.linkCarouselLight{
+  background-color: white;
+  border: none;
+  color: black;
+  font-weight: bold;
+  padding: 1rem;
+}
+.linkCarouselDark{
+  background-color: black;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 1rem;
+}
+.dot{
+  height: 0.5rem;
+  width: 0.5rem;
+  background-color: #888;
+  border-radius: 50%;
+}
+.dot:last-child{
+  margin-left: 1rem;
+}
+.selectorSlide{
+  background-color: #111;
+  width: 3rem;
+  height: 3rem;
+  margin: auto;
+}
+#blockInfo1 p{
+  padding-bottom: 2rem;
+}
+#blockInfo2 p{
+  padding-bottom: 2rem;
+}
+a:link{
+  text-decoration: none;
+}
+#blockInfo1 a:hover{
+  color: black;
+  background-color: #ddd;
+}
+#blockInfo2 a:hover{
+  color: white;
+  background-color: #111;
+}
+@media only screen and (max-width: 900px) {
+  #blockInfo1{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(51, 51, 51);
+    padding-top: 5%;
+    padding-bottom: 10%;
+    width: 100%;
+    text-align: center;
+    min-height: 300px;
+  }
+  #blockInfo2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 230, 230);
+    color: black;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    width: 100%;
+    text-align: center;
+    min-height: 300px;
+  }
+  #blockInfo2 p{
+    padding-bottom: 2rem;
+  }
+  #footerHorizontalLinks li {
+    float: left;
+  }
+}
+@media only screen and (min-width: 900px) {
+  #blockInfo1{
+    color: white;
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    text-align: center;
+  }
+  #blockInfo2{
+    color: black;
+    padding-left: 60%;
+    padding-bottom: 10%;
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    text-align: left;
+  }
+  #blockInfo2 p{
+    padding-bottom: 2rem;
+    max-width: 80%;
+  }
+  #footerHorizontalLinks li {
+    float: right;
+  }
+}
+/*Social Links*/
+#SocialContainer{
+  display: flex;
+  align-items: center;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+#SocialLinks{
+  font-size: 2rem;
+  list-style-type: none;
+}
+#SocialLinks li{
+  float: left;
+}
+#SocialLinks li a {
+  padding: 0.5rem;
+}
+#SocialContainer p{
+  color: #555;
+  font-size: 0.9rem;
+}
+/*Footer*/
+footer li {
+  list-style-type: none;
+}
+h4{
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(97, 97, 97);
+}
+footer{
+  background-color: rgb(242, 242, 242);
+}
+footer a{
+  font-size: 0.7em;
+  color: #555;
+}
+footer a:hover{
+  text-decoration: underline;
+  color: #000;
+}
+.text{
+  font-size:25px;
+}
+.text2{
+  font-size:15px;
+}
+.text3{
+  font-size:15px;
+}
+.tex{
+  font-size:23px;
+}
+.titre{
+  font-size:25px;
+}
+.text4{
+  font-size:14.5px;
+}
+.text5{
+  font-size:16px;
+}
+#footerListContainer{
+  padding-top: 2.5rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-bottom: 3rem;
+}
+#footerListContainer ul{
+  padding-top: 1rem;
+}
+#footerListContainer ul li{
+  padding-top: 0.3rem;
+}
+#footerHorizontalLinks{
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+#footerHorizontalLinks ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#footerHorizontalLinks li a{
   padding: 0.8rem;
- }
+}
 /*audrey nav bar*/
- .nav-link:hover{
-   text-decoration: underline;
- }
- .navbar{
-   font-size: 0.9em;
- }
+.nav-link:hover{
+  text-decoration: underline;
+}
+.navbar{
+  font-size: 0.9em;
+}
